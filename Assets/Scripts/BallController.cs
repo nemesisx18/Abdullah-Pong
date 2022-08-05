@@ -23,4 +23,8 @@ public class BallController : MonoBehaviour
         rig.velocity = speed;
     }
 
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
+    }
 }
