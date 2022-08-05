@@ -10,4 +10,9 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("GameScene");
         Debug.Log("Created by Abdullah");
     }
+
+    public void OpenCredit()
+    {
+        SceneManager.LoadScene("Credit");
+    }
 }
